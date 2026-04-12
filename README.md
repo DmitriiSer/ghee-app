@@ -6,6 +6,8 @@ Browse recipes, manage shopping lists, and download favorites for offline access
 
 ## Links
 
+- [App Store](https://apps.apple.com/us/app/ghee-for-mealie/id6758328014)
+- [Google Play](https://play.google.com/store/apps/details?id=casa.dsen.ghee)
 - [Privacy Policy](privacy-policy.md)
 
 ## Contact

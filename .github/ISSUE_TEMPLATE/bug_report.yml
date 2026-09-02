@@ -1,0 +1,51 @@
+name: Bug report
+description: Something in Ghee is broken or behaves unexpectedly.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please search existing issues first in case it is already known.
+        Do not paste your server URL, tokens, or anything else private here. Email contact@keelmade.com instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        1. Open a recipe
+        2. Tap "Download for offline"
+        3. Expected the recipe to download, but got an error "..."
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone model and OS version
+      placeholder: e.g. Pixel 8, Android 15 / iPhone 15, iOS 18.4
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Ghee and Mealie versions
+      description: Copy the line at the bottom of the Account tab. Ghee requires Mealie 2.0 or newer.
+      placeholder: e.g. Ghee 1.8.1 (109) · Mealie 3.23.1
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Only once so far
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or logs
+      description: Drag and drop screenshots here. Blur out anything private first.

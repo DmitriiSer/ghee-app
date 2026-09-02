@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an improvement or something new for Ghee.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Please search existing issues first. Upvote an existing request with a thumbs up instead of opening a duplicate.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the situation, not the solution. What are you doing in Ghee when you hit this?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like Ghee to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds or alternatives you have tried
+  - type: input
+    id: mealie-feature
+    attributes:
+      label: Related Mealie feature
+      description: If this mirrors something Mealie already does on the web, name it or link the Mealie docs.

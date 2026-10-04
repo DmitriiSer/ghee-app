@@ -10,6 +10,10 @@ Browse recipes, manage shopping lists, and download favorites for offline access
 - [Google Play](https://play.google.com/store/apps/details?id=casa.dsen.ghee)
 - [Privacy Policy](https://keelmade.com/ghee/privacy/)
 
+## Guides
+
+- [OIDC (SSO) login setup](docs/oidc-setup.md)
+
 ## Contact
 
 Questions or feedback? [Open an issue](https://github.com/DmitriiSer/ghee-app/issues).

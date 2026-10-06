@@ -5,7 +5,7 @@ labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
-      value: Please search existing issues first. Upvote an existing request with a thumbs up instead of opening a duplicate.
+      value: Please search existing issues first. If your idea is already there, add a thumbs-up reaction to it instead of opening a duplicate or commenting "+1". Thumbs-up counts help me decide what to build next.
   - type: textarea
     id: problem
     attributes:

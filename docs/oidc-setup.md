@@ -22,7 +22,7 @@ Keep the existing Mealie web redirect URIs in place. Nothing changes in Mealie's
 
 Google and Microsoft also need:
 
-- Mealie vX.Y.Z or newer
+- Mealie v3.29.0 or newer
 - Ghee 1.10.0 or newer
 
 ## Why the redirect URI is needed

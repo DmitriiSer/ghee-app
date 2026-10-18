@@ -12,7 +12,7 @@ Browse recipes, manage shopping lists, and download favorites for offline access
 
 ## Guides
 
-- [OIDC (SSO) login setup](docs/oidc-setup.md)
+- [OIDC (SSO) login setup](https://keelmade.com/ghee/guides/oidc/)
 
 ## Feature requests
 
